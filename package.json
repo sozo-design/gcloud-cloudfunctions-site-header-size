@@ -1,0 +1,17 @@
+{
+  "name": "gcloud-functions-site-header-size",
+  "version": "1.0.0",
+  "description": "Node JS script to check a URLs header length",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=checkHeaderLength --port=8111"
+  },
+  "keywords": [],
+  "author": "Clive Walkden <clive@sozodesign.co.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.3.0",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {}
+}

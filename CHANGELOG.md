@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Axios updated from 1.6.2 to 1.6.5
+
 ## [1.0.0] - 2023-12-13
 
 ### Added

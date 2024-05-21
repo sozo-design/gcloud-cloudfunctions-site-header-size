@@ -13,5 +13,46 @@
     "@google-cloud/functions-framework": "^3.4.0",
     "axios": "^1.7.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^23.1.1"
+  },
+  "release": {
+      "branches": [
+          "master",
+          {
+              "name": "beta",
+              "prerelease": true
+          },
+          {
+              "name": "alpha",
+              "prerelease": true
+          }
+      ],
+      "plugins": [
+          "@semantic-release/commit-analyzer",
+          "@semantic-release/release-notes-generator",
+          [
+              "@semantic-release/changelog",
+              {
+                  "changelogFile": "CHANGELOG.md",
+                  "changelogTitle": "# Changelog\n\nAll notable changes to this project will be documented in this file.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),\nand this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html)."
+              }
+          ],
+          [
+              "@semantic-release/npm",
+              {
+                  "npmPublish": false
+              }
+          ],
+          [
+              "@semantic-release/git",
+              {
+                  "assets": ["CHANGELOG.md"],
+                  "message": "chore(release): ${nextRelease.version} [ci skip]\n\n${nextRelease.notes}"
+              }
+          ]
+      ]
+  }
 }

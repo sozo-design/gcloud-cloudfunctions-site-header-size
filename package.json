@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "@google-cloud/functions-framework": "^3.4.0",
-    "axios": "^1.7.0"
+    "axios": "^1.7.1"
   },
   "devDependencies": {}
 }

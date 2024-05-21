@@ -9,7 +9,7 @@ You can run locally by running `npm run start`.
 You can pass the data using curl using the following:
 
 ```shell
-curl -X POST http://localhost:8111 \\n     -H "Content-Type: application/json" \\n     -H "Accept: application/json" \\n     -d '{"url":"https://sozodesign.co.uk"}'
+curl -X POST http://localhost:8111 -H "Content-Type: application/json" -H "Accept: application/json" -d '{"url":"https://sozodesign.co.uk"}'
 ```
 
 ## Test Data

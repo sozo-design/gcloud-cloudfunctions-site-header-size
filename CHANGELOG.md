@@ -12,11 +12,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * Added auto changelog and release management ([972e347](https://github.com/sozo-design/gcloud-cloudfunctions-site-header-size/commit/972e3471fe116e3b3c3c18a62471ce344980920f))
 
-## [Unreleased]
-
-### Changed
-
-- Axios updated from 1.6.2 to 1.6.5
 
 ## [1.0.0] - 2023-12-13
 

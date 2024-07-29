@@ -10,7 +10,7 @@
   "author": "Clive Walkden <clive@sozodesign.co.uk>",
   "license": "MIT",
   "dependencies": {
-    "@google-cloud/functions-framework": "^3.4.1",
+    "@google-cloud/functions-framework": "^3.4.2",
     "axios": "^1.7.2"
   },
   "devDependencies": {

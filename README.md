@@ -12,6 +12,12 @@ You can pass the data using curl using the following:
 curl -X POST http://localhost:8111 -H "Content-Type: application/json" -H "Accept: application/json" -d '{"url":"https://sozodesign.co.uk"}'
 ```
 
+### GCloud Function
+
+```shell
+curl -X POST https://europe-west2-sozo-design-231108.cloudfunctions.net/nodeModuleHeaderSize -H "Content-Type: application/json" -H "Accept: application/json" -d '{"url":"https://sozodesign.co.uk"}'
+```
+
 ## Test Data
 
 ```json
